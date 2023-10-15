@@ -1,0 +1,144 @@
+.content {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+  
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.icon {
+  font-size: 1.5em;
+  cursor: pointer;
+  margin: 0 20px; /* добавляем отступы по бокам */
+}
+
+  .search {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .search input {
+    flex-grow: 1;
+    padding: 5px 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    margin-right: 10px;
+  }
+  
+
+  .statusDropdown {
+    font-size: 16px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px; 
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  .statusDropdown:hover {
+    border-color: #888;
+  }
+  
+  .statusDropdown:focus {
+    border-color: #555;
+  }
+  .statisticsButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .statusDropdown {
+    margin-right: 10px;
+  }
+ 
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .charts {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  }
+  .customFilter button {
+    padding: 5px 15px; /* Например, корректируйте вертикальное заполнение */
+}
+
+
+
+
+.statisticsButton {
+  background-color: #0078d4;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 20px;
+}
+
+  .button {
+    padding: 5px 15px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #ddd;
+  }
+  
+  
+  .search {
+    flex-grow: 1;
+  }
+  
+  .search input {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  
+  .statisticsButton {
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-left: 1rem;
+  }
+  
+  /* Styles for other parts of the page */
+  .whiteBlock {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .whiteBlock Image {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .documentInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .roadmap {
+    background-color: #f5f5f5;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  

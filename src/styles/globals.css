@@ -1,0 +1,270 @@
+.page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+.iframe {
+width: 100%;
+height: 100%;
+border: none;
+}
+
+.canvas {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.search {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  flex-grow: 1;
+  padding: 5px 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+
+.statusDropdown {
+  font-size: 16px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px; 
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  outline: none;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.statusDropdown:hover {
+  border-color: #888;
+}
+
+.statusDropdown:focus {
+  border-color: #555;
+}
+.statisticsButton:hover {
+  background-color: #0056b3;
+}
+
+.statusDropdown {
+  margin-right: 10px;
+}
+.icon {
+  cursor: pointer;
+}
+
+.content {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;  /* Add full width to the content */
+}
+
+.cards {
+  display: flex;
+  justify-content: center;  /* Align the cards in the center */
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.filter {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.customDropdown {
+  padding: 0;       /* Уберите вертикальные отступы, если они есть */
+  height: auto;    /* Дайте автоматическую высоту */
+  align-self: center; /* выравнивание по вертикали относительно своего родительского элемента */
+}
+
+
+.customFilter button {
+  padding: 5px 15px; /* Например, корректируйте вертикальное заполнение */
+}
+
+
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 25px; 
+  margin-bottom: 20px;
+}
+
+.customDropdown {
+  margin-left: 10px;
+}
+
+
+.button {
+  padding: 5px 15px;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #ddd;
+}
+
+.active {
+  background-color: #007bff;
+  color: white;
+}
+
+
+
+.cards {
+  display: flex;
+  margin-top: 48px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 214px;
+  height: 284px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+.whiteBlock {
+  margin: 15px; /* или любое другое значение, которое вы считаете необходимым */
+}
+
+.department {
+  font-weight: bold;
+}
+
+.title {
+  flex-grow: 1;
+}
+
+.icon {
+  font-size: 1.5em;
+  text-align: center;
+}
+.icon {
+  margin: 0 20px; /* добавляем отступы по бокам */
+}
+.date, .status {
+  font-size: 0.9em;
+}
+
+/* ...предыдущие стили... */
+
+.table {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius:20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.headerRow {
+  background-color: #f7f7f7;
+  font-weight: bold;
+}
+
+.row, .headerRow {
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr 2fr 2fr 1fr;
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+}
+.cell {
+  flex-grow: 1;
+  padding: 0 10px;
+}
+
+.downloadIcon {
+  cursor: pointer;
+}
+.dropdown {
+  padding: 8px 12px;
+  border-radius:20px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+}
+
+.statisticsButton {
+  background-color: #3AAAFC; /* Зеленый цвет */
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-right: 10px; /* добавляем отступ справа от кнопки */
+}
+.statusIndicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 25px;
+  margin: 10px;
+  width: 182px;  }
+  
+
+.progressBar {
+  width: 100%;
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius:20px;
+  margin-top: 5px;
+}
+
+.progress {
+  height: 100%;
+  border-radius: 20px;
+}
+
+.statusIndicators {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+.statusBlock {
+  background-color: white;
+  border-radius: 25px;
+  margin-top: 10px;
+  padding: 10px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);  /* Придаем блоку немного тени для выделения на фоне */
+}
